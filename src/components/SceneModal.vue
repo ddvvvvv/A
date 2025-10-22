@@ -8,7 +8,7 @@
              </div>
          <div class="content">{{ desc }}</div>
          <div class="log" ref="logEl"></div>
-         <img v-show="showTreasure" class="treasure" src="../assets/scenes/picture.png" />
+         <img v-show="showTreasure" class="treasure" src="/assets/scenes/picture.png" />
       </div>
       <div class="right">
         <div class="controls">
