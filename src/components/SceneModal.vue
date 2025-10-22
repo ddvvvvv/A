@@ -44,10 +44,10 @@ export default {
 
     const desc = `欢迎来到${props.scene.title}。点击播放开始剧情（示例）。`;
     const bgMap = {
-      library: "/src/assets/music/library.mp3",
-      temple: "/src/assets/music/temple.mp3",
-      sea: "/src/assets/music/sea.mp3",
-      cave: "/src/assets/music/cave.mp3",
+      library: "/assets/music/library.mp3",
+      temple: "/assets/music/temple.mp3",
+      sea: "/assets/music/sea.mp3",
+      cave: "/assets/music/cave.mp3",
     };
     const bgSrc = bgMap[props.scene.id] || "";
 
